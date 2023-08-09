@@ -27,10 +27,15 @@
         <div class="container">
           <picture>
             <source
+              class="picture"
               media="(max-width: 877px)"
               srcset="/assets/images/illustration-sign-up-mobile.svg"
             />
-            <img src="/assets/images/illustration-sign-up-desktop.svg" alt="" />
+            <img
+              class="picture"
+              src="/assets/images/illustration-sign-up-desktop.svg"
+              alt=""
+            />
           </picture>
 
           <form class="form">
@@ -65,26 +70,24 @@
                 placeholder="email@company.com"
               />
               <br />
-              <button class="btn">
-                Subscribe to monthly newsletter
-              </button>
+              <button class="btn">Subscribe to monthly newsletter</button>
             </div>
           </form>
         </div>
       </div>
-    </main>
 
-    <!-- Success message start -->
-    <div class="thanks__message hide">
-      <img class="check__img" src="/assets/images/icon-success.svg" alt="" />
-      <h1 class="thanks__title">Thanks for subscribing!</h1>
-      <p>
-        A confirmation email has been sent to
-        <span class="email__span">ash@loremcompany.com</span>. Please open it
-        and click the button inside to confirm your subscription.
-      </p>
-      <button class="btn dismiss_btn">Dismiss message</button>
-    </div>
+      <!-- Success message start -->
+      <div class="thanks__message hide">
+        <img class="check__img" src="/assets/images/icon-success.svg" alt="" />
+        <h1 class="thanks__title">Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to
+          <span class="email__span">ash@loremcompany.com</span>. Please open it
+          and click the button inside to confirm your subscription.
+        </p>
+        <button class="btn dismiss_btn">Dismiss message</button>
+      </div>
+    </main>
 
     <!-- Success message end -->
   </body>

@@ -6,6 +6,7 @@ const thanksMessage = document.querySelector(".thanks__message");
 const emailSpan = document.querySelector(".email__span");
 const dismiss = document.querySelector(".dismiss_btn");
 
+
 let isEmailValid = false;
 
 function checkEmail() {
