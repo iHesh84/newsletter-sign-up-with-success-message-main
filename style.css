@@ -205,4 +205,21 @@ span {
   .title {
     font-size: 2.6rem;
   }
+
+  
+}
+
+@media (max-width: 485px){
+  .thanks__message {
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .dismiss_btn {
+    margin-top: 18rem;
+  }
+
+  .check__img{
+    margin-top: 5rem;
+  }
 }
